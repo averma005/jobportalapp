@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>My new website</title>
+    </head>
+    <body>
+        Firstname : {{fname}}<br />
+        Lastname : {{lname}}<br />
+        
+        <ul>
+        {% for company in companies %}
+            <li>{{company}}</li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
